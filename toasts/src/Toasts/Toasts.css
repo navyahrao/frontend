@@ -1,0 +1,57 @@
+.mainContainer {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.inputField {
+  border: 1px solid #4622aa;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.submitButton {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4622aa;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+.toasts {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toast {
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  border-radius: 8px;
+  animation: fadeIn linear 1s;
+}
+
+.closeIcon {
+  margin-left: 10px;
+  background: #000000;
+  border: none;
+  color: #ffffff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
