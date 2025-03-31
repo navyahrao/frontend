@@ -7,7 +7,7 @@ const RulesModal = ({onClose}) => {
     <div className="modal-container">
       <div className='modal-header'>
         <div className='title'>Rules</div>
-        <div className='close' onClick={onClose}></div>
+        <div className='close'aria-label="close modal" onClick={onClose}></div>
       </div>
       <div className="rules"></div>
     </div>

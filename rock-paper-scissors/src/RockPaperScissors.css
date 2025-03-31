@@ -29,7 +29,7 @@
     margin-left: auto;
     flex-direction: column;
     text-align: center;
-    color: gray;
+    color: #000;
 
     .score {
       font-size: 32px;
