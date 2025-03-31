@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  background: radial-gradient(circle, #1f3756 50%, #141539);
+  padding: 24px 0;
+  color: #fff;
+  font-family: Arial, serif;
+}
+
+.header {
+  display: flex;
+  padding: 16px;
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: transparent;
+
+  .logo {
+    background: url("./images/logo.svg") no-repeat;
+    width: 100%;
+    background-size: contain;
+  }
+  .score-container {
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    background: white;
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    text-align: center;
+    color: gray;
+
+    .score {
+      font-size: 32px;
+      color: #455A64;
+    }
+  }
+}
+
+.rules-container {
+  display: flex;
+  max-width: 40px;
+  margin-left: auto;
+  margin-right: 24px;
+  margin-top: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+}

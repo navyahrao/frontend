@@ -1,0 +1,45 @@
+.initial-view-container {
+  max-width: 500px;
+  max-height: 400px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("../images/bg-triangle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.play-button {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 7em;
+  height: 7em;
+  background-color: #1d3150;
+  border: none;
+}
+
+.paper {
+  background-color: white;
+  background-image: url("../images/icon-paper.svg");
+  border: 12px solid #4865f4;
+}
+
+
+.scissors {
+  background-color: white;
+  background-image: url("../images/icon-scissors.svg");
+  border: 12px solid #ec9e0e;
+}
+
+.rock {
+  background-color: white;
+  background-image: url("../images/icon-rock.svg");
+  border: 12px solid #dc2e4e;
+  align-self: flex-end;
+}
